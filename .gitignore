@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+
+# Optional build outputs (if using build tools)
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+log.txt
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional, if project-specific settings shouldn't be shared)
+.vscode/
+
+# Environment variables
+.env
+.env.* 
+
+# Coverage reports (for testing tools)
+coverage/
+
+# Optional:
+# Ignore compiled files if using TypeScript or Babel
+*.tsbuildinfo
+
+# If using Parcel or similar tools
+.cache/
