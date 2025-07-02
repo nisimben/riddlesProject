@@ -1,9 +1,9 @@
 import Person from '../classes/Player.js'
-import PromptSync from 'prompt-sync';
-const prompt = PromptSync();
+import {question} from 'readline-sync';
+
 
 export default function genPerson(){
-    let name = prompt('What is your name?\t');
+    let name = question('What is your name?\t');
     return new Person(name)
 
 }

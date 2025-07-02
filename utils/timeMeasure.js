@@ -1,4 +1,4 @@
-export default function measureTime(fn){
+export default function timeMeasure(fn){
     const now = Date.now();
     fn();
     const end = Date.now();
